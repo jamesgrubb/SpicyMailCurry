@@ -39,9 +39,9 @@ tr{
 }
 td{
 	margin:0px;
-	padding:0px;
+	padding: 0 5px 5px;
 	border-collapse:collapse;
-}
+;}
 img{
 	border:none; /* PREVENTS CERTAIN CLIENTS PUTTING A BORDER AROUND HYPERLINKED IMAGES */
 }
@@ -302,6 +302,12 @@ img{
 		font-style:italic;
 	}
 	
+	.borderBottom {
+		border-bottom: 10px solid #3CA7AD;
+	}
+
+	
+
 	/* 
 	FONT FAMILY DECLARATIONS 
 	THIS FRAMEWORK ONLY PROVIDES TWO GLOBALLY SUPPORTED STYLES
@@ -313,7 +319,7 @@ img{
 		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
 	.fontSerif{
-		font-family:Georgia, Times, 'Times New Roman', serif;
+		font-family: Georgia, Times, 'Times New Roman', serif;
 	}
 	
 	/*
