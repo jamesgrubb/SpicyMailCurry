@@ -313,7 +313,7 @@ img{
 		font-family:Arial, Helvetica, Gotham, sans-serif;
 	}
 	.fontSerif{
-		font-family:Times New Roman, Cambria, Times, serif;
+		font-family:Georgia, Times, 'Times New Roman', serif;
 	}
 	
 	/*
@@ -328,7 +328,7 @@ img{
 		color:#ffffff;
 	}
 	.copyColor3{
-		color:#ff0000;
+		color:#3CA7AD;
 	}
 	
 	/* HORIZONTAL TEXT AND IMAGE ALIGNMENT DECLARATIONS */
