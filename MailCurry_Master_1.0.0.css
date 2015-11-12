@@ -1,0 +1,363 @@
+body{
+	background:#ebebeb;
+	margin:0px;
+	padding:0px;
+}
+/*
+===============================================
+Version 1.0.0 - Currently in Alpha Testing. Internal.
+View Changelog document in Master CSS Folder for Version Changes.
+===============================================
+*/
+
+/*
+===============================================
+IF YOU WISH TO EDIT THIS DOCUMENT, PLEASE CREATE A LOCAL COPY.
+
+THIS IS THE MASTER DOCUMENT AND SHOULD NOT BE MODIFIED, SAVED
+OVER OR REWRITTEN.
+
+COPYRIGHT - REUBAN PLANT!
+THAT'S RIGHT, I KNOW WHERE YOU SIT.
+===============================================
+*/
+
+/* RESET ALL TABLE & BLOCK LEVEL ELEMENTS TO AVOID DECLARATION INHERITANCES */
+
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	padding:0px;
+	margin:0px;
+	mso-table-rspace: 0pt;
+	mso-table-lspace: 0pt;
+}
+tr{
+	padding:0px;
+	margin:0px;
+	border-collapse:collapse;
+}
+td{
+	margin:0px;
+	padding:0px;
+	border-collapse:collapse;
+}
+img{
+	border:none; /* PREVENTS CERTAIN CLIENTS PUTTING A BORDER AROUND HYPERLINKED IMAGES */
+}
+
+/* SPACING STYLES - CAN BE APPLIED ON EITHER ROW OR CELL. CELL DECLARATION PREFERRED DUE TO WIDEST SUPPORT */
+	/* LEFT GUTTER STYLES */
+	.gutterLeft-5{
+		padding-left:5px;
+	}
+	.gutterLeft-10{
+		padding-left:10px;
+	}
+	.gutterLeft-15{
+		padding-left:15px;
+	}
+	.gutterLeft-20{
+		padding-left:20px;
+	}
+	.gutterLeft-25{
+		padding-left:25px;
+	}
+	.gutterLeft-30{
+		padding-left:30px;
+	}
+	.gutterLeft-35{
+		padding-left:35px;
+	}
+	.gutterLeft-40{
+		padding-left:40px;
+	}
+
+	/* RIGHT GUTTER STYLES */
+	.gutterRight-5{
+		padding-right:5px;
+	}	
+	.gutterRight-10{
+		padding-right:10px;
+	}
+	.gutterRight-15{
+		padding-right:15px;
+	}
+	.gutterRight-20{
+		padding-right:20px;
+	}
+	.gutterRight-25{
+		padding-right:25px;
+	}
+	.gutterRight-30{
+		padding-right:30px;
+	}
+	.gutterRight-35{
+		padding-right:35px;
+	}
+	.gutterRight-40{
+		padding-right:40px;
+	}
+	
+	/* TOP GUTTER STYLES */
+	.gutterTop-5{
+		padding-top:5px;
+	}	
+	.gutterTop-10{
+		padding-top:10px;
+	}
+	.gutterTop-15{
+		padding-top:15px;
+	}
+	.gutterTop-20{
+		padding-top:20px;
+	}
+	.gutterTop-25{
+		padding-top:25px;
+	}
+	.gutterTop-30{
+		padding-top:30px;
+	}
+	.gutterTop-35{
+		padding-top:35px;
+	}
+	.gutterTop-40{
+		padding-top:40px;
+	}
+
+	/* BOTTOM GUTTER STYLES */
+	.gutterBottom-5{
+		padding-bottom:5px;
+	}	
+	.gutterBottom-10{
+		padding-bottom:10px;
+	}
+	.gutterBottom-15{
+		padding-bottom:15px;
+	}
+	.gutterBottom-20{
+		padding-bottom:20px;
+	}
+	.gutterBottom-25{
+		padding-bottom:25px;
+	}
+	.gutterBottom-30{
+		padding-bottom:30px;
+	}
+	.gutterBottom-35{
+		padding-bottom:35px;
+	}
+	.gutterBottom-40{
+		padding-bottom:40px;
+	}
+	
+	/* BACKGROUND COLOURS */
+	.bg-One{
+		background-color:#ffffff;
+	}
+	.bg-Two{
+		background-color:#000000;
+	}
+	.bg-Three{
+		background-color:#ff0000;
+	}
+	
+	/*
+	GENERIC EQUAL WIDTH COLUMNS.
+	col-(x)-noChange DECLARATIONS WILL MAINTAIN THEIR LAYOUT ACROSS ALL BREAKPOINTS.
+	col-(x)-responsive DECLARATIONS WILL TURN INTO STACKABLE TABLES AT ALL RESOLUTIONS BELOW NATIVE.
+	col-(x)-mobileOnly WILL STACK AT RESOLUTIONS BELOW TABLET BREAKPOINTS.
+	*/
+	.col-2-noChange{
+		width:49%;
+	}
+	.col-2-responsive{
+		width:49%;
+	}
+	.col-2-mobileOnly{
+		width:49%;
+	}
+	.col-3-noChange{
+		width:33%;
+	}
+	.col-3-responsive{
+		width:33%;
+	}
+	.col-3-mobileOnly{
+		width:33%;
+	}
+	
+	/* 
+	WIDTH DECLARATIONS - CAN BE USED ON EITHER TDs or TABLES. 
+	THESE STYLES WILL BE OVERRIDDEN BY RESPONSIVE MEDIA QUERY DECLARATIONS IF USED ON RESPONSIVE COLUMNS.
+	*/
+	.width-10{
+		width:10%;
+	}
+	.width-20{
+		width:20%;
+	}
+	.width-30{
+		width:30%;
+	}
+	.width-40{
+		width:40%;
+	}
+	.width-50{
+		width:50%;
+	}
+	.width-60{
+		width:60%;
+	}
+	.width-70{
+		width:70%;
+	}
+	.width-80{
+		width:80%;
+	}
+	.width-90{
+		width:90%;
+	}
+	
+	/* 
+	RESIZE IMAGE TO EXPAND OR SHRINK AS PER REQUIREMENT ACROSS BREAKPOINTS. 
+	PLEASE NOTE THAT AT NATIVE WIDTH IMAGE SHOULD HAVE A DECLARED WIDTH AS PER REQUIREMENT
+	CELLS CONTAINING IMAGES SHOULD BE ASSIGNED THE IMG HOLDER CLASS 
+	*/
+	.img-resize{
+		/* Holder for RWD styles */
+	}
+	.img-holder{
+		font-size:0px;
+		line-height:0px;
+	}
+	
+	/* ANCHOR GLOBAL - IDEAL FOR EMAILS WHERE ALL LINKS ARE OF THE SAME COLOR */
+	.anchorGlobal{
+		text-decoration:underline;
+		color:#000000;
+	}
+	
+	/* 
+	PRESET TERMS & CONDITIONS.
+	GENERIC STYLING FOR TERMS AND CONDITIONS.
+	*/
+	.termsConditions{
+		font-size:11px;
+		color:#666666;
+	}
+	
+	/* FONT SIZE DECLARATIONS */
+	.copy11{
+		font-size:11px;
+	}
+	.copy12{
+		font-size:12px;
+	}
+	.copy13{
+		font-size:13px;
+	}
+	.copy14{
+		font-size:14px;
+	}
+	.copy15{
+		font-size:15px;
+	}
+	.copy16{
+		font-size:16px;
+	}
+	.copy17{
+		font-size:17px;
+	}
+	.copy18{
+		font-size:18px;
+	}
+	.copy19{
+		font-size:19px;
+	}
+	.copy20{
+		font-size:20px;
+	}
+	.copy21{
+		font-size:21px;
+	}
+	.copy22{
+		font-size:22px;
+	}
+	.copy23{
+		font-size:23px;
+	}
+	.copy24{
+		font-size:24px;
+	}
+	
+	/*	FONT STYLE DECLARTATIONS */
+	.copyBold{
+		font-weight:bold;
+	}
+	.copyUnderline{
+		text-decoration:underline;
+	}
+	.copyItalic{
+		font-style:italic;
+	}
+	
+	/* 
+	FONT FAMILY DECLARATIONS 
+	THIS FRAMEWORK ONLY PROVIDES TWO GLOBALLY SUPPORTED STYLES
+	ARIAL FOR THE SANS-SERIF FONT FAMILY AS DEFAULT WITH FAILSAFE FONTS
+	TIMES NEW ROMAN FOR THE SERIF FAMILY AS DEFAULT WITH FAILSAFE FONTS
+	*/
+	
+	.fontSansSerif{
+		font-family:Arial, Helvetica, Gotham, sans-serif;
+	}
+	.fontSerif{
+		font-family:Times New Roman, Cambria, Times, serif;
+	}
+	
+	/*
+	FONT COLOUR DECLARATIONS
+	PRESET TO 3 DIFFERENT FONT COLORS
+	*/
+	
+	.copyColor1{
+		color:#000000;
+	}
+	.copyColor2{
+		color:#ffffff;
+	}
+	.copyColor3{
+		color:#ff0000;
+	}
+	
+	/* HORIZONTAL TEXT AND IMAGE ALIGNMENT DECLARATIONS */
+	.ta_left{
+		text-align:left; /* THIS DOES NOT USUALLY NEED DECLARATION AT IT IS THE DEFAULT STYLE */
+	}
+	.ta_center{
+		text-align:center;
+	}
+	.ta_right{
+		text-align:right;
+	}
+	
+	/* VERTICAL TEXT AND IMAGE ALIGNMENT DECLARATIONS */
+	.va_top{
+		vertical-align:top;
+	}
+	.va_center{
+		vertical-align:middle; /* THIS DOES NOT USUALLY NEED DECLARATION AT IT IS THE DEFAULT STYLE */
+	}
+	.va_bottom{
+		vertical-align:bottom;
+	}
+	
+	/* IMAGE SWAPPING CAPABILITIES */
+	
+	.showDesk{
+		display:block;
+	}
+	.showTabMob{
+		display:none;
+	}

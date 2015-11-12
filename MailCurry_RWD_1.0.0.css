@@ -1,0 +1,57 @@
+/* RWD Management Styles */
+	
+	/* Tablet Management */
+	@media only screen and (max-width: 680px)  {
+		.table100{
+			width:440px !important; 
+		}
+		.img-resize{
+			width:100% !important;
+		}
+		.col-2-responsive{
+			width:100%;
+		}
+		.col-3-responsive{
+			width:100%;
+		}
+		.responsiveTable{
+			width:100%;
+		}
+		.showDesk{
+			display:none !important;
+		}
+		.showTabMob{
+			display:block !important;
+		}
+	}
+	
+	/* Mobile Management */
+	@media only screen and (max-width:479px) {
+		.table100{
+			width:280px !important; 
+		}
+		.img-resize{
+			width:100% !important;
+		}
+		.col-2-responsive{
+			width:100% !important;
+		}
+		.col-2-mobileOnly{
+			width:100% !important;
+		}
+		.col-3-responsive{
+			width:100%
+		}
+		.col-3-mobileOnly{
+			width:100%;
+		}
+		.responsiveTable{
+			width:100%;
+		}
+		.showDesk{
+			display:none !important;
+		}
+		.showTabMob{
+			display:block !important;
+		}
+	}
